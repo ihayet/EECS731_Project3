@@ -21,4 +21,4 @@ I have used a MultiLabelBinarizer to encode the movie genre as that might be use
 Clustering:
 -------------
 
-After trying different values for the number of clusters, I have come to realize that the fewer clusters we have, the more number of movies are recommended. At that point, it becomes highly likely that we might end up with bad recommendations towards the end. However, for any number of recommendations, we should be able to sort the first n number of recommendations according to our desire.
+I have used the KMeans clustering algorithm. After trying different values for the number of clusters, I have come to realize that the fewer clusters we have, the more number of movies are recommended. At that point, it becomes highly likely that we might end up with bad recommendations towards the end. However, for any number of recommendations, we should be able to sort the first n number of recommendations according to our desire.
